@@ -1,0 +1,77 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/xcuserdata/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Aa][Rr][Mm]64/
+ios/build/
+Build/
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Swiftpm
+.swiftpm/
+.build/
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.orig
+*.bak
+*.swp
+
+# User settings
+*.xcuserstate
+*.xcuserdatad/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Local configuration
+Config.local.xcconfig

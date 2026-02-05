@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings (Spanish)
+  TicTacToeIOS
+  
+  Created by iOS Developer
+  Copyright © 2024 TicTacToeIOS. All rights reserved.
+*/
+
+// MARK: - App General
+"app.name" = "Tres en Raya";
+"app.subtitle" = "Juego Clásico, Experiencia Moderna";
+
+// MARK: - Menu
+"menu.title" = "Tres en Raya";
+"menu.subtitle" = "Elige tu modo de juego";
+"menu.single.player" = "Un Jugador";
+"menu.vs.ai" = "Jugar vs IA";
+"menu.two.players" = "Dos Jugadores";
+"menu.local.multiplayer" = "Multijugador local";
+"menu.select.mode" = "Seleccionar Modo de Juego";
+"menu.select.difficulty" = "Seleccionar Dificultad";
+"menu.start.game" = "Iniciar Juego";
+"menu.scores" = "Puntuaciones";
+"menu.settings" = "Configuración";
+"menu.back" = "Volver al Menú";
+
+// MARK: - Difficulty
+"difficulty.easy" = "Fácil";
+"difficulty.medium" = "Medio";
+"difficulty.hard" = "Difícil";
+
+// MARK: - Game
+"game.mode.single" = "Un Jugador";
+"game.mode.two" = "Dos Jugadores";
+"game.current.turn" = "Turno Actual:";
+"game.reset" = "Nuevo Juego";
+"game.state.ongoing" = "Juego en Progreso";
+"game.state.won" = "¡%@ Gana!";
+"game.state.draw" = "¡Es un Empate!";
+
+// MARK: - Scores
+"scores.title" = "Estadísticas del Juego";
+"scores.total.games" = "Total de Partidas: %d";
+"scores.wins" = "Victorias";
+"scores.draws" = "Empates";
+"scores.win.rate" = "Tasa de Victoria";
+"scores.recent.games" = "Partidas Recientes";
+"scores.no.games" = "Aún no hay partidas jugadas";
+"scores.clear" = "Limpiar Historial";
+"scores.won" = "Ganado";
+"scores.draw" = "Empate";
+
+// MARK: - Settings
+"settings.title" = "Configuración";
+"settings.subtitle" = "Personaliza tu experiencia";
+"settings.sound" = "Sonido";
+"settings.sound.effects" = "Efectos de Sonido";
+"settings.sound.effects.subtitle" = "Sonidos de movimientos del juego";
+"settings.music" = "Música de Fondo";
+"settings.music.subtitle" = "Música ambiental del juego";
+"settings.volume" = "Volumen";
+"settings.display" = "Pantalla";
+"settings.dark.mode" = "Modo Oscuro";
+"settings.dark.mode.subtitle" = "Cambiar a tema oscuro";
+"settings.language" = "Idioma";
+"settings.haptic" = "Comentarios Hápticos";
+"settings.haptic.feedback" = "Comentarios Hápticos";
+"settings.haptic.feedback.subtitle" = "Vibración en movimientos";
+"settings.about" = "Acerca de";
+"settings.version" = "Versión";
+"settings.developer" = "Desarrollador";
+"settings.privacy.policy" = "Política de Privacidad";
+
+// MARK: - Accessibility
+"accessibility.cell" = "Celda";
+"accessibility.empty" = "Vacía";
+"accessibility.occupied.by" = "Ocupada por";
+"accessibility.tap.to.play" = "Toca dos veces para colocar marca aquí";
+"accessibility.board" = "Tablero de juego";
+"accessibility.current.player" = "El jugador actual es %@";
+
+// MARK: - Achievements
+"achievement.first.win" = "Primera Victoria";
+"achievement.first.win.desc" = "Gana tu primera partida";
+"achievement.streak.3" = "Tres Seguidas";
+"achievement.streak.3.desc" = "Gana 3 partidas seguidas";
+"achievement.games.10" = "Jugador Dedicado";
+"achievement.games.10.desc" = "Juega 10 partidas";
+"achievement.games.50" = "Maestro del Juego";
+"achievement.games.50.desc" = "Juega 50 partidas";
+"achievement.hard.master" = "Experto en IA";
+"achievement.hard.master.desc" = "Gana 3 partidas en dificultad difícil";

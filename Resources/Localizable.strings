@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  TicTacToeIOS
+  
+  Created by iOS Developer
+  Copyright © 2024 TicTacToeIOS. All rights reserved.
+*/
+
+// MARK: - App General
+"app.name" = "Tic Tac Toe";
+"app.subtitle" = "Classic Game, Modern Experience";
+
+// MARK: - Menu
+"menu.title" = "Tic Tac Toe";
+"menu.subtitle" = "Choose your game mode";
+"menu.single.player" = "Single Player";
+"menu.vs.ai" = "Play vs AI";
+"menu.two.players" = "Two Players";
+"menu.local.multiplayer" = "Local multiplayer";
+"menu.select.mode" = "Select Game Mode";
+"menu.select.difficulty" = "Select Difficulty";
+"menu.start.game" = "Start Game";
+"menu.scores" = "Scores";
+"menu.settings" = "Settings";
+"menu.back" = "Back to Menu";
+
+// MARK: - Difficulty
+"difficulty.easy" = "Easy";
+"difficulty.medium" = "Medium";
+"difficulty.hard" = "Hard";
+
+// MARK: - Game
+"game.mode.single" = "Single Player";
+"game.mode.two" = "Two Players";
+"game.current.turn" = "Current Turn:";
+"game.reset" = "New Game";
+"game.state.ongoing" = "Game in Progress";
+"game.state.won" = "%@ Wins!";
+"game.state.draw" = "It's a Draw!";
+
+// MARK: - Scores
+"scores.title" = "Game Statistics";
+"scores.total.games" = "Total Games: %d";
+"scores.wins" = "Wins";
+"scores.draws" = "Draws";
+"scores.win.rate" = "Win Rate";
+"scores.recent.games" = "Recent Games";
+"scores.no.games" = "No games played yet";
+"scores.clear" = "Clear History";
+"scores.won" = "Won";
+"scores.draw" = "Draw";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.subtitle" = "Customize your experience";
+"settings.sound" = "Sound";
+"settings.sound.effects" = "Sound Effects";
+"settings.sound.effects.subtitle" = "Game move sounds";
+"settings.music" = "Background Music";
+"settings.music.subtitle" = "Ambient game music";
+"settings.volume" = "Volume";
+"settings.display" = "Display";
+"settings.dark.mode" = "Dark Mode";
+"settings.dark.mode.subtitle" = "Toggle dark theme";
+"settings.language" = "Language";
+"settings.haptic" = "Haptic Feedback";
+"settings.haptic.feedback" = "Haptic Feedback";
+"settings.haptic.feedback.subtitle" = "Vibration on moves";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.developer" = "Developer";
+"settings.privacy.policy" = "Privacy Policy";
+
+// MARK: - Accessibility
+"accessibility.cell" = "Cell";
+"accessibility.empty" = "Empty";
+"accessibility.occupied.by" = "Occupied by";
+"accessibility.tap.to.play" = "Double tap to place mark here";
+"accessibility.board" = "Game board";
+"accessibility.current.player" = "Current player is %@";
+
+// MARK: - Achievements
+"achievement.first.win" = "First Victory";
+"achievement.first.win.desc" = "Win your first game";
+"achievement.streak.3" = "Three in a Row";
+"achievement.streak.3.desc" = "Win 3 games in a row";
+"achievement.games.10" = "Dedicated Player";
+"achievement.games.10.desc" = "Play 10 games";
+"achievement.games.50" = "Game Master";
+"achievement.games.50.desc" = "Play 50 games";
+"achievement.hard.master" = "AI Expert";
+"achievement.hard.master.desc" = "Win 3 games on hard difficulty";
