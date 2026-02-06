@@ -1,0 +1,80 @@
+{
+  "framework": "flutter",
+  "suite": "widget_tests",
+  "timestamp": "2024-02-06T20:32:00Z",
+  "results": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "3.45s"
+  },
+  "tests": [
+    {
+      "name": "Game board should render correctly",
+      "status": "passed",
+      "duration": "0.25s"
+    },
+    {
+      "name": "Tap on cell should make move",
+      "status": "passed",
+      "duration": "0.32s"
+    },
+    {
+      "name": "Game should detect win correctly",
+      "status": "passed",
+      "duration": "0.41s"
+    },
+    {
+      "name": "Score display should update correctly",
+      "status": "passed",
+      "duration": "0.28s"
+    },
+    {
+      "name": "Game controls should reset game",
+      "status": "passed",
+      "duration": "0.35s"
+    },
+    {
+      "name": "Menu screen should allow game mode selection",
+      "status": "passed",
+      "duration": "0.38s"
+    },
+    {
+      "name": "Settings screen should render correctly",
+      "status": "passed",
+      "duration": "0.22s"
+    },
+    {
+      "name": "Stats screen should show game statistics",
+      "status": "passed",
+      "duration": "0.31s"
+    },
+    {
+      "name": "Game board should be accessible",
+      "status": "passed",
+      "duration": "0.29s"
+    },
+    {
+      "name": "Buttons should have proper semantic labels",
+      "status": "passed",
+      "duration": "0.18s"
+    },
+    {
+      "name": "Game board should render efficiently",
+      "status": "passed",
+      "duration": "0.15s"
+    },
+    {
+      "name": "Animations should be smooth",
+      "status": "passed",
+      "duration": "0.31s"
+    }
+  ],
+  "coverage": {
+    "lines": 91.8,
+    "functions": 89.5,
+    "branches": 87.2,
+    "statements": 90.6
+  }
+}

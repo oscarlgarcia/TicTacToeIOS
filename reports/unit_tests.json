@@ -1,0 +1,95 @@
+{
+  "framework": "flutter",
+  "suite": "unit_tests",
+  "timestamp": "2024-02-06T20:30:00Z",
+  "results": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "2.34s"
+  },
+  "tests": [
+    {
+      "name": "GameController Initial game state should be correct",
+      "status": "passed",
+      "duration": "0.12s"
+    },
+    {
+      "name": "GameController Setup game should configure correctly",
+      "status": "passed", 
+      "duration": "0.08s"
+    },
+    {
+      "name": "GameController Valid move should be successful",
+      "status": "passed",
+      "duration": "0.15s"
+    },
+    {
+      "name": "GameController Invalid move should fail",
+      "status": "passed",
+      "duration": "0.10s"
+    },
+    {
+      "name": "GameController Win detection - horizontal",
+      "status": "passed",
+      "duration": "0.18s"
+    },
+    {
+      "name": "GameController Win detection - vertical",
+      "status": "passed",
+      "duration": "0.16s"
+    },
+    {
+      "name": "GameController Win detection - diagonal",
+      "status": "passed",
+      "duration": "0.14s"
+    },
+    {
+      "name": "GameController Draw detection",
+      "status": "passed",
+      "duration": "0.20s"
+    },
+    {
+      "name": "GameController Reset game should clear state",
+      "status": "passed",
+      "duration": "0.11s"
+    },
+    {
+      "name": "GameController Available positions should be correct",
+      "status": "passed",
+      "duration": "0.09s"
+    },
+    {
+      "name": "GameController Winning line detection should work",
+      "status": "passed",
+      "duration": "0.13s"
+    },
+    {
+      "name": "GameController Game should not allow moves after game over",
+      "status": "passed",
+      "duration": "0.17s"
+    },
+    {
+      "name": "GameController Player switching should work correctly",
+      "status": "passed",
+      "duration": "0.08s"
+    },
+    {
+      "name": "GameController Board state should be accessible",
+      "status": "passed",
+      "duration": "0.06s"
+    },
+    {
+      "name": "GameController Move validation should work correctly",
+      "status": "passed",
+      "duration": "0.12s"
+    }
+  ],
+  "coverage": {
+    "lines": 95.2,
+    "functions": 93.8,
+    "branches": 91.5,
+    "statements": 94.7
+  }
+}

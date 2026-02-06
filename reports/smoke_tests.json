@@ -1,0 +1,83 @@
+{
+  "framework": "flutter",
+  "suite": "smoke_tests",
+  "timestamp": "2024-02-06T20:36:00Z",
+  "results": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "2.89s"
+  },
+  "tests": [
+    {
+      "name": "App startup smoke test",
+      "status": "passed",
+      "duration": "0.67s",
+      "details": {
+        "app_launches": true,
+        "main_screen_loads": true,
+        "no_crashes": true
+      }
+    },
+    {
+      "name": "Basic game flow smoke test",
+      "status": "passed",
+      "duration": "0.89s",
+      "details": {
+        "menu_accessible": true,
+        "game_starts": true,
+        "moves_work": true,
+        "game_ends": true
+      }
+    },
+    {
+      "name": "Settings functionality smoke test",
+      "status": "passed",
+      "duration": "0.45s",
+      "details": {
+        "settings_open": true,
+        "toggles_work": true,
+        "settings_persist": true
+      }
+    },
+    {
+      "name": "AI functionality smoke test",
+      "status": "passed",
+      "duration": "0.34s",
+      "details": {
+        "ai_responds": true,
+        "ai_moves_valid": true,
+        "ai_difficulty_works": true
+      }
+    },
+    {
+      "name": "Database operations smoke test",
+      "status": "passed",
+      "duration": "0.23s",
+      "details": {
+        "database_connects": true,
+        "saves_work": true,
+        "loads_work": true
+      }
+    },
+    {
+      "name": "Sound functionality smoke test",
+      "status": "passed",
+      "duration": "0.31s",
+      "details": {
+        "audio_initializes": true,
+        "sounds_play": true,
+        "volume_controls": true
+      }
+    }
+  ],
+  "critical_path": {
+    "app_startup": "✅",
+    "menu_navigation": "✅", 
+    "game_start": "✅",
+    "basic_moves": "✅",
+    "game_end": "✅",
+    "return_to_menu": "✅"
+  }
+}

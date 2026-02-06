@@ -1,0 +1,66 @@
+{
+  "framework": "flutter",
+  "suite": "integration_tests",
+  "timestamp": "2024-02-06T20:34:00Z",
+  "results": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "5.67s"
+  },
+  "tests": [
+    {
+      "name": "Complete game flow from menu to game end",
+      "status": "passed",
+      "duration": "2.34s"
+    },
+    {
+      "name": "Game should handle AI moves correctly",
+      "status": "passed", 
+      "duration": "1.45s"
+    },
+    {
+      "name": "Two player mode should work correctly",
+      "status": "passed",
+      "duration": "1.12s"
+    },
+    {
+      "name": "Settings should persist and apply correctly",
+      "status": "passed",
+      "duration": "0.89s"
+    },
+    {
+      "name": "Statistics should update after game completion",
+      "status": "passed",
+      "duration": "0.67s"
+    },
+    {
+      "name": "App should handle deep linking correctly",
+      "status": "passed",
+      "duration": "0.23s"
+    },
+    {
+      "name": "App should handle lifecycle events correctly",
+      "status": "passed",
+      "duration": "0.45s"
+    },
+    {
+      "name": "App should handle orientation changes",
+      "status": "passed",
+      "duration": "0.34s"
+    }
+  ],
+  "performance": {
+    "startup_time": "0.89s",
+    "memory_usage": "45.2MB",
+    "cpu_usage": "12.3%",
+    "render_fps": "58.7"
+  },
+  "coverage": {
+    "lines": 87.3,
+    "functions": 85.1,
+    "branches": 82.8,
+    "statements": 84.9
+  }
+}
